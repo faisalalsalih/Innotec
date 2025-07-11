@@ -2,13 +2,54 @@ import React from 'react'
 import Logo from '../assets/network.png'
 import Down from "../assets/down-arrow.png"
 import Burger from "../assets/menu.png"
+import { gsap } from "gsap";
+import { useState } from 'react';
 
 
 
 const Navbar = () => {
 
+  // useState to handle the on and off of the sidebar
+  const [open, setOpen] = useState(false);
+
+
+
+  const handleopen = () => {
+    setOpen(true);
+    gsap.to(".menu-panel", { x: 0, duration: 0.5, ease: "power3.out" });
+  }
+
+  const handleClose = () => {
+     gsap.to(".menu-panel", {
+      x: "100%",
+      duration: 0.5,
+      ease: "power3.in",
+      onComplete: () => setOpen(false)
+    });
+
+  }
+
+
+
+
+
   return (
     <>
+    {
+      open && (
+         <div className="fixed top-0 right-0 w-64 h-full bg-[#f1fce3] shadow-lg menu-panel translate-x-full">
+          <button onClick={handleClose} className="text-xl p-4 cursor-pointer">❌</button>
+          <ul className="p-4 space-y-2">
+            <li className="hover:underline cursor-pointer">About us</li>
+            <li className="hover:underline cursor-pointer">What we do</li>
+            <li className="hover:underline cursor-pointer">Our Result</li>
+            <li className="hover:underline cursor-pointer">About us</li>
+            <li className="hover:underline cursor-pointer">What we do</li>
+          </ul>
+        </div>
+
+      )
+    }
     <nav className='w-full lg:w-[90%] h-20 flex justify-self-center justify-between items-center px-6'>
     {/* Logo of the Navbar */}
 
@@ -34,7 +75,7 @@ const Navbar = () => {
     </div>
 
     <div className='menu block md:hidden cursor-pointer'>
-      <img src={Burger} alt="Menu_image" className='w-8 h-8'/>
+      <img onClick={handleopen} src={Burger} alt="Menu_image" className='w-8 h-8'/>
     </div>
 
     </nav>

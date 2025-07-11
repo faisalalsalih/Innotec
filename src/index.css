@@ -87,3 +87,7 @@ body{
 .white{
     background-color: #fcf1e3;
 }
+
+.button button{
+    font-family: 'roboto-500';
+}

@@ -72,11 +72,11 @@ const Navbar = () => {
     {/* Link Section Start here */}
     <div className="links hidden md:block">
       <ul className='flex gap-x-6'>
-        <li className='flex  lg:text-base cursor-pointer text-sm text-[#fcf1e3]'>About us <img src={Down} alt="Dropdown" className='w-6 h-6'/></li>
-        <li className='flex  lg:text-base cursor-pointer text-sm text-[#fcf1e3]'>what we do <img src={Down} alt="Dropdown" className='w-6 h-6'/></li>
-        <li className='flex  lg:text-base cursor-pointer text-sm text-[#fcf1e3]'>Our Result</li>
-        <li className='flex  lg:text-base cursor-pointer text-sm text-[#fcf1e3]'>About us <img src={Down} alt="Dropdown" className='w-6 h-6'/></li>
-        <li className='flex  lg:text-base cursor-pointer text-sm text-[#fcf1e3]'>what we do <img src={Down} alt="Dropdown" className='w-6 h-6'/></li>
+        <li className='flex  lg:text-base cursor-pointer text-small text-[#fcf1e3]'>About us <img src={Down} alt="Dropdown" className='w-6 h-6'/></li>
+        <li className='flex  lg:text-base cursor-pointer text-small text-[#fcf1e3]'>what we do <img src={Down} alt="Dropdown" className='w-6 h-6'/></li>
+        <li className='flex  lg:text-base cursor-pointer text-small text-[#fcf1e3]'>Our Result</li>
+        <li className='flex  lg:text-base cursor-pointer text-small text-[#fcf1e3]'>About us <img src={Down} alt="Dropdown" className='w-6 h-6'/></li>
+        <li className='flex  lg:text-base cursor-pointer text-small text-[#fcf1e3]'>what we do <img src={Down} alt="Dropdown" className='w-6 h-6'/></li>
 
       </ul>
     </div>

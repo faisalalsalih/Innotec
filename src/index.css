@@ -93,5 +93,13 @@ body{
 }
 
 .links{
-    font-family: 'roboto-400';
+    font-family: 'roboto-100';
+}
+.pink{
+    color: #c762f4;
+}
+
+.part1 h1{
+    font-family: 'roboto-500';
+    color: #fcf1e3;
 }

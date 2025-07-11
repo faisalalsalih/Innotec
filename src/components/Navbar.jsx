@@ -3,7 +3,7 @@ import Logo from '../assets/network.png'
 import Down from "../assets/down-arrow.png"
 import Burger from "../assets/menu.png"
 import { gsap } from "gsap";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 
 
@@ -13,14 +13,26 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
 
+   useEffect(() => {
+    if (open) {
+      gsap.fromTo(
+        "#menu-panel",
+        { x: "100%" },
+        { x: 0, duration: 0.5, ease: "power3.out" }
+      );
+    }
+  }, [open]);
+
+
+
 
   const handleopen = () => {
     setOpen(true);
-    gsap.to(".menu-panel", { x: 0, duration: 0.5, ease: "power3.out" });
+    gsap.to("#menu-panel", { x: 0, duration: 0.5, ease: "power3.out" });
   }
 
   const handleClose = () => {
-     gsap.to(".menu-panel", {
+     gsap.to("#menu-panel", {
       x: "100%",
       duration: 0.5,
       ease: "power3.in",
@@ -37,7 +49,7 @@ const Navbar = () => {
     <>
     {
       open && (
-         <div className="fixed top-0 right-0 w-64 h-full bg-[#f1fce3] shadow-lg menu-panel translate-x-full">
+         <div id='menu-panel' className="fixed top-0 right-0 w-64 h-full bg-[#f1fce3] shadow-lg  translate-x-full">
           <button onClick={handleClose} className="text-xl p-4 cursor-pointer">❌</button>
           <ul className="p-4 space-y-2">
             <li className="hover:underline cursor-pointer">About us</li>

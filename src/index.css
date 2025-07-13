@@ -93,7 +93,7 @@ body{
 }
 
 .links{
-    font-family: 'roboto-100';
+    font-family: 'roboto-400';
 }
 .pink{
     color: #c762f4;
@@ -103,3 +103,9 @@ body{
     font-family: 'roboto-500';
     color: #fcf1e3;
 }
+
+.card{
+    display: flow-root;
+}
+
+

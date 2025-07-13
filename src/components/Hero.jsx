@@ -21,10 +21,10 @@ const Hero = () => {
 
           <p className='paragraph text-[#878787]'>we offer services such as custom software development, cloud computing <br />strategies,cybersecurity,and digital transformation consulatncy.<br />we empower business with technology to enhance productivity,security <br /> and  overall operational excellency</p>
 
-          <div className="logos flex justify-between">
-            <img className='logo w-14 h-14' src={microsoft} alt="company-logo" />
-            <img className='logo' src={ibm} alt="company-logo" />
-            <img className='logo' src={cisco} alt="company-logo" />
+          <div className="logos flex justify-between w-[70%]">
+            <img className='logo w-12 h-12' src={microsoft} alt="company-logo" />
+            <img className='logo w-14 h-14' src={ibm} alt="company-logo" />
+            <img className='logo w-14 h-14' src={cisco} alt="company-logo" />
           </div>
         </div>
 
@@ -33,11 +33,14 @@ const Hero = () => {
 
 
         {/* Part 2 */}
-        <div className="part2 w-[40%] bg-pink-500 pt-10">
+        <div className="part2 w-[40%] pt-10 h-fit">
           
-          <div className="card w-full h-140 bg-black">
+          <div className="card w-full h-140  rounded-xl overflow-visible p-0 relative bg-blue-200">
+            <div className="curve w-60 h-60 bg-[#191919]  rounded-r-2xl absolute left-0 top-0">
 
+            </div>
 
+            
           </div>
         </div>
 

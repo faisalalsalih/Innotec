@@ -8,10 +8,10 @@ import cisco from "../assets/cisco.png"
 const Hero = () => {
   return (
     <>
-      <section id='hero' className='w-[85%] h-dvh flex justify-self-center'>
+      <section id='hero' className='w-[85%] h-dvh flex gap-4 justify-self-center pr-4 pl-4'>
         
         {/* part1 */}
-        <div className="part1 w-[60%] flex flex-col gap-12 p-16 pl-0">
+        <div className="part1 w-[60%] h-fit flex flex-col gap-12 p-12 pl-0 bg-green-600">
           <h1 className='text-6xl'>Your <span className='pink'>Partner</span> For <br /> Comprehensive <span className='pink'>IT</span> <br /> Solutions</h1>
 
           <div className="bar w-[90%] h-12 border rounded-4xl bg-blue-200 flex justify-between pr-8 pl-8">
@@ -35,12 +35,27 @@ const Hero = () => {
         {/* Part 2 */}
         <div className="part2 w-[40%] pt-10 h-fit">
           
-          <div className="card w-full h-140  rounded-xl overflow-visible p-0 relative bg-blue-200">
-            <div className="curve w-60 h-60 bg-[#191919]  rounded-r-2xl absolute left-0 top-0">
+          <div className="card w-full h-140  rounded-xl overflow-hidden p-0 relative bg-blue-200">
+            <div className="curve w-30 h-60 bg-[#191919]  rounded-r-2xl absolute left-0 top-0">
+              <div className="chotto_3"></div>
+            </div>
+
+            <div className='curve_2 bg-[#191919] rounded-2xl absolute right-45 w-50 h-50'>
+              <div className="chotto_2"></div>
+            </div>
+
+            <div className="chotto_1">
+            </div>
+
+
+            <div className="chotto_4">
 
             </div>
 
-            
+
+            <div className="chotto_5"></div>
+
+
           </div>
         </div>
 

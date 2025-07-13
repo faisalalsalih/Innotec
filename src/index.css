@@ -109,3 +109,58 @@ body{
 }
 
 
+.chotto_1{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 220px;
+    border-top-left-radius: 40px;
+    box-shadow: -40px -40px 0px #191919;
+}
+
+.chotto_2{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    border-top-left-radius: 40px;
+    box-shadow: -40px -40px 0px #191919;
+}
+
+.chotto_3{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    border-top-left-radius: 40px;
+    box-shadow: -40px -40px 0px #191919;
+}
+
+.card{
+    border-top-left-radius: 0;
+}
+
+.chotto_4{
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+    bottom: 320px;
+    border-top-left-radius: 20px;
+    box-shadow: -20px -20px 0px #191919;
+}
+
+.chotto_5{
+    position: absolute;
+    right: 130px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-top-left-radius: 30px;
+    box-shadow: -20px -10px 0px #191919;
+}

@@ -3,6 +3,8 @@ import Arrow from "../assets/top-right.png"
 import microsoft from "../assets/microsoft.png"
 import ibm from "../assets/ibm.png"
 import cisco from "../assets/cisco.png"
+import hero from "../assets/hero-img.png"
+import down from "../assets/down-right.png"
 
 
 const Hero = () => {
@@ -11,7 +13,7 @@ const Hero = () => {
       <section id='hero' className='w-[85%] h-dvh flex gap-4 justify-self-center pr-4 pl-4'>
         
         {/* part1 */}
-        <div className="part1 w-[60%] h-fit flex flex-col gap-12 p-12 pl-0 bg-green-600">
+        <div className="part1 w-[60%] h-fit flex flex-col gap-12 p-12 pl-0">
           <h1 className='text-6xl'>Your <span className='pink'>Partner</span> For <br /> Comprehensive <span className='pink'>IT</span> <br /> Solutions</h1>
 
           <div className="bar w-[90%] h-12 border rounded-4xl bg-blue-200 flex justify-between pr-8 pl-8">
@@ -35,7 +37,7 @@ const Hero = () => {
         {/* Part 2 */}
         <div className="part2 w-[40%] pt-10 h-fit">
           
-          <div className="card w-full h-140  rounded-xl overflow-hidden p-0 relative bg-blue-200">
+          <div className="card w-full h-140  rounded-xl overflow-hidden p-0 relative bg-blue-200 z-2">
             <div className="curve w-30 h-60 bg-[#191919]  rounded-r-2xl absolute left-0 top-0">
               <div className="chotto_3"></div>
             </div>
@@ -54,6 +56,18 @@ const Hero = () => {
 
 
             <div className="chotto_5"></div>
+
+
+            <img src={hero} alt="hero-img" className='z-4 absolute bottom-0 right-0'/>
+
+
+
+            <div className="circle flex justify-center items-center w-20 h-20 bg-[#c762f4] absolute left-16 top-16 z-4 rounded-full">
+              
+              <div className="circle_1 h-14 w-14 bg-[#fcf1e3] rounded-full flex justify-center items-center">
+                <img src={down} alt="arrow" className='w-8 h-8' />
+              </div>
+            </div>
 
 
           </div>

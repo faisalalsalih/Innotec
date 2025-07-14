@@ -76,6 +76,8 @@
 
 /* The Font Adding Closed Here */
 
+
+
 body{
     background-color: #191919;
 }
@@ -116,7 +118,7 @@ body{
     position: absolute;
     bottom: 220px;
     border-top-left-radius: 40px;
-    box-shadow: -40px -40px 0px #191919;
+    /* box-shadow: -40px -40px 0px #05ffa7; */
 }
 
 .chotto_2{
@@ -126,7 +128,7 @@ body{
     position: absolute;
     left: 0;
     border-top-left-radius: 40px;
-    box-shadow: -40px -40px 0px #191919;
+    /* box-shadow: -40px -40px 0px #037fbe; */
 }
 
 .chotto_3{
@@ -136,7 +138,7 @@ body{
     position: absolute;
     left: 0;
     border-top-left-radius: 40px;
-    box-shadow: -40px -40px 0px #191919;
+    /* box-shadow: -40px -40px 0px #0e9a01; */
 }
 
 .card{
@@ -152,7 +154,7 @@ body{
     left: 120px;
     bottom: 320px;
     border-top-left-radius: 20px;
-    box-shadow: -20px -20px 0px #191919;
+    /* box-shadow: -20px -20px 0px #ff0000; */
 }
 
 .chotto_5{
@@ -162,6 +164,134 @@ body{
     height: 50px;
     background-color: transparent;
     border-top-left-radius: 30px;
-    box-shadow: -20px -10px 0px #191919;
+    /* box-shadow: -20px -10px 0px #8d016f; */
 }
 
+@media (max-width:1440px){
+    .chotto_4{
+        width: 50px;
+    }
+}
+
+@media (max-width:1040px){
+    .chotto_4{
+        width: 35px;
+        bottom: 322px;
+        left: 120px;
+    }
+}
+
+
+@media (max-width:1024px){
+    .chotto_4{
+        width: 100px;
+        bottom: 300px;
+    }
+    .chotto_1{
+        bottom: 220px;
+    }
+    .chotto_5{
+        right: 130px;
+    }
+}
+
+
+@media (max-width:875px){
+    .chotto_4{
+        width: 50px;
+    }
+}
+
+
+@media (max-width:1140px){
+    .high{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:905px){
+    #hero{
+        flex-direction: column;
+        align-items: center;
+    }
+    .part1{
+        width: 80%;
+    }
+    .high{
+        text-align: center;
+        font-size: 4rem;
+    }
+    .bar{
+        width: 80%;
+        margin-left: 80px;
+    }
+    .paragraph{
+        font-size: 0.75rem;
+        text-align: center;
+    }
+    .logos{
+        justify-content: space-between;
+        /* background-color: #05ffa7; */
+        margin-left: 100px;
+        align-items: center;
+    }
+}
+
+
+@media (max-width:700px){
+    .high{
+        font-size: 3rem;
+    }
+    .bar{
+        margin-left: 30px;
+        width: 100%;
+    }
+    .paragraph{
+        margin-left: 50px;
+    }
+    .logos{
+        margin-left: 80px;
+    }
+
+}
+
+
+@media (max-width:800px){
+    .high{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:550px){
+    .bar{
+        margin-left: 20px;
+    }
+    .part1{
+        width: 100%;
+    }
+}
+
+@media (max-width:450px){
+    .bar{
+        font-size: 0.75rem;
+        justify-content: center;
+    }
+    .high{
+        margin-left: 10px;
+    }
+    .paragraph{
+        margin-left: 50px;
+        font-size: 0.75rem;
+    }
+}
+
+
+@media (max-width:425px){
+    .high{
+        font-size: 2.5rem;
+    }
+    .logos{
+        width: 100%;
+        margin-left: 25px;
+    }
+}

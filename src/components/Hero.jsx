@@ -62,10 +62,10 @@ const Hero = () => {
 
 
 
-            <div className="circle flex justify-center items-center w-20 h-20 bg-[#c762f4] absolute left-16 top-16 z-4 rounded-full">
+            <div className="circle flex justify-center items-center md:w-20 md:h-20 h-15 w-15 bg-[#c762f4] absolute left-16 top-16 z-4 rounded-full">
               
-              <div className="circle_1 h-14 w-14   bg-[#fcf1e3] rounded-full flex justify-center items-center">
-                <img src={down} alt="arrow" className='w-8 h-8' loading='lazy' />
+              <div className="circle_1  md:h-14 md:w-14 w-10 h-10   bg-[#fcf1e3] rounded-full flex justify-center items-center">
+                <img src={down} alt="arrow" className='md:w-8 md:h-8 w-6 h-6' loading='lazy' />
               </div>
             </div>
 

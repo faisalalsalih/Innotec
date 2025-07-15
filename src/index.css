@@ -159,8 +159,8 @@ body{
 
 .chotto_5{
     position: absolute;
-    right: 130px;
-    width: 50px;
+    right: 102px;
+    width: 80px;
     height: 50px;
     background-color: transparent;
     border-top-left-radius: 30px;
@@ -336,6 +336,16 @@ body{
     }
     .part2{
         width: 100%;
+    }
+    .curve_2{
+        width: 100%;
+    }
+    .curve{
+        width: 70%;
+    }
+    .chotto_5{
+        width: 70px;
+        right: 112px;        
     }
     
 }

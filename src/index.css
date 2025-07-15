@@ -118,7 +118,7 @@ body{
     position: absolute;
     bottom: 220px;
     border-top-left-radius: 40px;
-    /* box-shadow: -40px -40px 0px #05ffa7; */
+    box-shadow: -40px -40px 0px #191919;
 }
 
 .chotto_2{
@@ -128,7 +128,7 @@ body{
     position: absolute;
     left: 0;
     border-top-left-radius: 40px;
-    /* box-shadow: -40px -40px 0px #037fbe; */
+    box-shadow: -40px -40px 0px #191919;
 }
 
 .chotto_3{
@@ -138,7 +138,7 @@ body{
     position: absolute;
     left: 0;
     border-top-left-radius: 40px;
-    /* box-shadow: -40px -40px 0px #0e9a01; */
+    box-shadow: -40px -40px 0px #191919;
 }
 
 .card{
@@ -154,7 +154,7 @@ body{
     left: 120px;
     bottom: 320px;
     border-top-left-radius: 20px;
-    /* box-shadow: -20px -20px 0px #ff0000; */
+    box-shadow: -20px -20px 0px #191919;
 }
 
 .chotto_5{
@@ -164,7 +164,7 @@ body{
     height: 50px;
     background-color: transparent;
     border-top-left-radius: 30px;
-    /* box-shadow: -20px -10px 0px #8d016f; */
+    box-shadow: -20px -10px 0px #191919;
 }
 
 @media (max-width:1440px){
@@ -293,5 +293,56 @@ body{
     .logos{
         width: 100%;
         margin-left: 25px;
+    }
+}
+
+@media (max-width:895px){
+    .chotto_4{
+        width: 50px;
+        height: 50px;
+        bottom: 310px;
+        left: 120px;
+    }
+}
+
+@media (max-width:872px){
+    .chotto_4{
+        width: 35px;
+    }
+}
+
+@media (max-width:866px){
+    .chotto_4{
+        width: 30px;
+        left: 119px;
+        bottom: 312px;
+    }
+}
+
+@media (max-width:852px){
+    .chotto_4{
+        width: 30px;
+        bottom: 312px;
+        left: 115px;
+        height: 50px;
+        
+    }
+}
+
+@media (max-width:837px){
+    .chotto_4{
+        width: 40px;
+        border-top-right-radius: 40px;
+    }
+    .part2{
+        width: 100%;
+    }
+    
+}
+
+
+@media (max-width:585px){
+    .chotto_4{
+        left: 120px;
     }
 }

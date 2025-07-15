@@ -38,7 +38,7 @@ const Hero = () => {
         <div className="part2 w-[40%] mt-12">
           
           <div className="card w-full  h-140   rounded-xl overflow-hidden p-0 relative bg-blue-200 z-2">
-            <div className="curve w-30 h-60 bg-[#05135c]  rounded-r-2xl absolute left-0 top-0">
+            <div className="curve w-30 h-60 bg-[#191919]  rounded-r-2xl absolute left-0 top-0">
               <div className="chotto_3"></div>
             </div>
 

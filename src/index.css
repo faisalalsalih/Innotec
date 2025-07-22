@@ -1,10 +1,9 @@
 @import "tailwindcss";
 
 
-
 @font-face {
     font-family: 'roboto-100';
-    src: url("../public/Fonts/roboto-v48-latin-100.woff2") format('woff2');
+    src:  url("Fonts/roboto-v48-latin-100.woff2") format('woff2');
     font-style: normal;
     font-weight: 100;
 }
@@ -13,7 +12,7 @@
 
 @font-face {
     font-family: 'roboto-200';
-    src: url("../public/Fonts/roboto-v48-latin-200.woff2") format('woff2');
+    src:  url("Fonts/roboto-v48-latin-200.woff2") format('woff2');
     font-style: normal;
     font-weight: 200;
 }
@@ -22,7 +21,7 @@
 
 @font-face {
     font-family: 'roboto-300';
-    src: url("../public/Fonts/roboto-v48-latin-300.woff2") format('woff2');
+    src:  url("Fonts/roboto-v48-latin-300.woff2") format('woff2');
     font-style: normal;
     font-weight: 300;
 }
@@ -30,7 +29,7 @@
 
 @font-face {
     font-family: 'roboto-500';
-    src: url("../public/Fonts/roboto-v48-latin-500.woff2") format('woff2');
+    src:  url("Fonts/roboto-v48-latin-500.woff2") format('woff2');
     font-style: normal;
     font-weight: 500;
 }
@@ -38,7 +37,7 @@
 
 @font-face {
     font-family: 'roboto-600';
-    src: url("../public/Fonts/roboto-v48-latin-600.woff2") format('woff2');
+    src:  url("Fonts/roboto-v48-latin-600.woff2") format('woff2');
     font-style: normal;
     font-weight: 600;
 }
@@ -46,7 +45,7 @@
 
 @font-face {
     font-family: 'roboto-700';
-    src: url("../public/Fonts/roboto-v48-latin-700.woff2") format('woff2');
+    src:  url("Fonts/roboto-v48-latin-700.woff2") format('woff2');
     font-style: normal;
     font-weight: 700;
 }
@@ -54,21 +53,21 @@
 
 @font-face {
     font-family: 'roboto-800';
-    src: url("../public/Fonts/roboto-v48-latin-800.woff2") format('woff2');
+    src:  url("Fonts/roboto-v48-latin-800.woff2") format('woff2');
     font-style: normal;
     font-weight: 800;
 }
 
 @font-face {
     font-family: 'roboto-900';
-    src: url("../public/Fonts/roboto-v48-latin-900.woff2") format('woff2');
+    src:  url("Fonts/roboto-v48-latin-900.woff2") format('woff2');
     font-style: normal;
     font-weight: 900;
 }
 
 @font-face {
     font-family: 'regular';
-    src: url("../public/Fonts/roboto-v48-latin-regular.woff2") format('woff2');
+    src:  url("Fonts/roboto-v48-latin-regular.woff2") format('woff2');
     font-style: normal;
 }
 
@@ -355,4 +354,33 @@ body{
     .chotto_4{
         left: 120px;
     }
+}
+
+
+
+
+/* Second Section Start from Here */
+
+.center{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.center_upper{
+    width: 70%;
+    height: 80px;
+    background-color: blue;
+    justify-self: end;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40px 100%);
+}
+
+.sticky_1{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(112, 216, 121);
+    justify-self: end;
+    border-top-right-radius: 30px;
+    box-shadow: 2px -10px 0px rgb(158, 0, 0);
+
 }

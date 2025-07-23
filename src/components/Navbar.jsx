@@ -87,7 +87,7 @@ const Navbar = () => {
     </div>
 
     <div className='menu block md:hidden cursor-pointer'>
-      <img onClick={handleopen} src={Burger} alt="Menu_image" className='w-8 h-8'/>
+      <img onClick={handleopen} src={Burger} alt="Menu_image" className='w-8 h-8' loading='lazy'/>
     </div>
 
     </nav>

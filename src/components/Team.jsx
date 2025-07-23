@@ -7,7 +7,11 @@ const Team = () => {
 
         <div className="center w-full bg-black h-120">
             <div className="center_upper"></div>
-            <div className="sticky_1"></div>
+
+
+              <div className="sticky_1"></div>
+
+            
         </div>
       </section>
     </>

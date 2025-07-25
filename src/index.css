@@ -373,7 +373,6 @@ body{
     background-color: blue;
     justify-self: end;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40px 100%);
-    margin-bottom: 0;
     z-index: 2;
     position: relative;
     margin-bottom: 0px;
@@ -394,3 +393,4 @@ body{
     z-index: 6;
     margin-right: 0px;
 }
+

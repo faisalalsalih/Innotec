@@ -7,7 +7,7 @@ import arrow from "../assets/top-right.png";
 const Team = () => {
   return (
     <>
-      <section id='team' className='w-full md:w-[85%] h-dvh bg-amber-300 justify-self-center p-2 my-22 flex items-center overflow-x-hidden'>
+      <section id='team' className='w-full md:w-[85%] h-dvh bg-[#191919] justify-self-center p-2 my-22 flex items-center overflow-x-hidden'>
 
         <div className="center w-full bg-black h-120 overflow-hidden">
           <div className="center_upper">

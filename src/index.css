@@ -373,7 +373,7 @@ body{
 .center_upper{
     width: 70%;
     height: 80px;
-    background-color: blue;
+    background-color: #191919;
     justify-self: end;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40px 100%);
     z-index: 2;
@@ -385,7 +385,7 @@ body{
 .teamwork{
     max-width: 900px;
     height: 100px;
-    background-color: #c762f4;
+    /* background-color: #c762f4; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -456,7 +456,7 @@ body{
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .roundi{
@@ -481,7 +481,7 @@ body{
     margin-top: -1px;
     /* margin-right: 10px; */
     border-top-right-radius: 16px;
-    box-shadow: 0px -16px 0px blue;
+    box-shadow: 0px -16px 0px #191919;
     position: relative;
     z-index: 6;
     margin-right: 0px;
@@ -496,7 +496,7 @@ body{
 
 .flexi{
     max-width: 1200px;
-    background-color: turquoise;
+    /* background-color: turquoise; */
     min-width: 300px;
     display: flex;
     justify-content: space-between;
@@ -597,6 +597,7 @@ body{
     .center{
         height: 540px;
     }
+    
     .teamwork{
         justify-content: end;
     }
@@ -615,7 +616,7 @@ body{
     }
 
     .center_upper{
-        margin-right: 70px;
+        /* margin-right: 70px; */
         width: 80%;
     }
 }
@@ -663,5 +664,11 @@ body{
     .center{
         height: 600px;
     }
+    .center_upper{
+        top: 0;
+    }
     
 }
+
+
+

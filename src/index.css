@@ -365,6 +365,9 @@ body{
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
+    background: url('assets/of7.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .center_upper{
@@ -378,6 +381,96 @@ body{
     margin-bottom: 0px;
 }
 
+
+.teamwork{
+    max-width: 900px;
+    height: 100px;
+    background-color: #c762f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.member{
+    display: flex;
+    width: 200px;
+    position: relative;
+    margin-top: -60px;
+}
+.member :first-child{
+    position: absolute;
+    background: url('assets/of1.jpg');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    z-index: 60;
+    border: 1px solid #fcf1e3;
+}
+
+.member :nth-child(2){
+    position: absolute;
+    background: url('assets/of2.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 61;
+    left: 30px;
+    border: 1px solid #fcf1e3;
+}
+
+.member :nth-child(3){
+    position: absolute;
+    background: url('assets/of3.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 63;
+    left: 60px;
+    border: 1px solid #fcf1e3;
+}
+
+
+
+.member :nth-child(4){
+    position: absolute;
+    background: url('assets/of4.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 64;
+    left: 90px;
+    border: 1px solid #fcf1e3;
+}
+
+
+
+.member :nth-child(5){
+    position: absolute;
+    background: url('assets/of5.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 65;
+    left: 120px;
+    border: 1px solid #fcf1e3;
+}
+
+.round{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: blueviolet;
+}
+
+.roundi{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #fcf1e3;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: rotate(90deg);
+}
 
 
 .sticky_1{
@@ -394,3 +487,181 @@ body{
     margin-right: 0px;
 }
 
+@media (max-width: 1024px){
+    #team{
+        width: 100%;
+    }
+}
+
+
+.flexi{
+    max-width: 1200px;
+    background-color: turquoise;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    /* align-self: end; */
+    margin-top: 150px;
+    height: 200px;
+}
+
+
+.flexi_1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.adv{
+    width: 200px;
+    height: 100px;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    font-size: 28px;
+    color: #fcf1e3;
+
+}
+
+
+.flexi_2{
+    display: flex;
+    gap: 20px;
+    margin-right: 10px;
+}
+
+
+.flexi_2a{
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.flexi_2a h3{
+    font-family: 'roboto-500';
+}
+
+.flexi_2a p{
+    font-family: 'roboto-500';
+    font-size: 12px;
+}
+
+
+
+
+
+.flexi_2b{
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.flexi_2b h3{
+    font-family: 'roboto-500';
+}
+
+.flexi_2b p{
+    font-family: 'roboto-500';
+    font-size: 12px;
+}
+
+.hello{
+    font-family: 'roboto-500';
+    color: #fcf1e3;
+    font-size: 1.5rem;
+}
+
+
+
+@media (max-width:840px){
+    .flexi_2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .center{
+        height: 540px;
+    }
+    .teamwork{
+        justify-content: end;
+    }
+    .roundi{
+        width: 40px;
+        height: 40px;
+        margin-top: -30px;
+        margin-right: 20px;
+    }
+    .roundi img{
+        height: 15px;
+        width: 15px;
+    }
+    .teamwork{
+        max-width: 800px;
+    }
+
+    .center_upper{
+        margin-right: 70px;
+        width: 80%;
+    }
+}
+
+
+
+@media (max-width:660px){
+    .hello{
+        font-size: 1rem;
+        margin-top: -10px;
+    }
+    .teamwork{
+        gap: 7px;
+    }
+    .member .round{
+        width: 40px;
+        height: 40px;
+    }
+    .roundi{
+        margin-left: -20px;
+    }
+}
+
+
+@media (max-width:500px){
+    .center_upper{
+        margin-right: 0px;
+    }
+    .hello{
+        display: none;
+    }
+}
+
+
+@media (max-width:560px){
+    .flexi{
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: center;
+        gap: 20px;
+    }
+    .flexi_2{
+        margin-left: 20px;
+    }
+    .center{
+        height: 600px;
+    }
+    
+}

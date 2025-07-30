@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 @font-face {
     font-family: 'roboto-100';
     src:  url("Fonts/roboto-v48-latin-100.woff2") format('woff2');
@@ -691,9 +696,120 @@ body{
 
 .offer{
     width: 100%;
-    height: 500px;
+    height: 570px;
     background-color: chocolate;
     border-radius: 16px;
     margin-top: 10px;
 }
 
+.offer_1{
+    max-width: 500px;
+    height: 100px;
+    background-color: #191919;
+    clip-path: polygon(0% 0%, 100% 0%, calc(100% - 40px) 100%, 0% 100%);
+    overflow: hidden;
+}
+
+.stc1{
+    width: 40px;
+    height: 30px;
+    background-color: transparent;
+    border-top-left-radius: 20px;
+    box-shadow: -10px -12px 0px #191919;
+}
+
+.stc2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    left: 510px;
+    top: 9px;
+    border-top-left-radius: 20px;
+    box-shadow: -3px -2px 0px #191919;
+}
+
+.offer_2{
+    width: 100%;
+    height: 200px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.offer_2 h1{
+    font-size: 3rem;
+    color: #fcf1e3;
+}
+
+
+.offer_2 p{
+    font-size: 0.8rem;
+    color: #fcf1e3;
+    margin-bottom: 10px;
+    font-family: 'roboto-500';
+}
+
+.offer_2 button{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fcf1e3;
+    color: #191919;
+    border-radius: 25px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+.offer_2 button img{
+    transform: rotate(-90deg);
+}
+
+
+.offer_3{
+    width: 100%;
+    height: 340px;
+    background-color: #c862f415;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.card1{
+    width: 220px;
+    height: 340px;
+    background-color: #191919;
+    border-radius: 14px;
+}
+
+.card2{
+    width: 220px;
+    height: 340px;
+    background-color: #191919;
+    border-radius: 14px;
+}
+
+.card3{
+    width: 220px;
+    height: 340px;
+    background-color: #191919;
+    border-radius: 14px;
+}
+
+
+
+.card4{
+    width: 220px;
+    height: 340px;
+    background-color: #191919;
+    border-radius: 14px;
+}

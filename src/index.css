@@ -780,8 +780,7 @@ body{
 
 .cards{
     display: flex;
-    justify-content: center;
-    gap: 80px;
+    justify-content: space-between;
 }
 
 .card1{
@@ -789,6 +788,9 @@ body{
     height: 340px;
     background-color: #191919;
     border-radius: 14px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 600ms ease-in-out;
 }
 
 .card2{
@@ -796,6 +798,11 @@ body{
     height: 340px;
     background-color: #191919;
     border-radius: 14px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 600ms ease-in-out;
+
+
 }
 
 .card3{
@@ -803,6 +810,11 @@ body{
     height: 340px;
     background-color: #191919;
     border-radius: 14px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 600ms ease-in-out;
+
+
 }
 
 
@@ -812,4 +824,215 @@ body{
     height: 340px;
     background-color: #191919;
     border-radius: 14px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 600ms ease-in-out;
+
+}
+
+
+.invisible_1 .gola{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+.invisible_1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.invisible_1 h1{
+    color: #f1fce3;
+    font-size: 1em;
+}
+
+
+.invisible_2 p{
+    font-size: 12px;
+    color: #f1fce3;
+    font-family: 'roboto-300';
+}
+
+
+
+.invisible_3{
+    color: #f1fce3;
+    margin-bottom: 20px;
+}
+
+.circlo{
+    width: 20px;
+    height: 20px;
+    background-color: #fcf1e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+#include{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.ro1{
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+.ro2{
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+.ro3{
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+.invisible_4 button{
+    display: flex;
+    gap: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #c762f4;
+    border-radius: 22px;
+    color: #fcf1e3;
+    font-size: 16px;
+}
+
+
+#visible{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+#visible .gola{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+
+#visible h1{
+    color: #f1fce3;
+    font-size: 1em;
+    font-family: 'roboto-600';
+}
+
+
+#visible button{
+    display: flex;
+    gap: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #c762f4;
+    border-radius: 22px;
+    color: #fcf1e3;
+    font-size: 16px;
+}
+
+
+/* HOVER EFFECT ON CARD */
+#invisible{
+    display: none;
+}
+
+.card1:hover #visible{
+    display: none;
+}
+
+.card1:hover #invisible{
+    display: block;
+}
+
+.card1:hover{
+    width: 360px;
+    height: 380px;
+    transition: all 600ms ease-in-out;
+    transform: scale(0.8);
+}
+
+
+
+
+.card2:hover #visible{
+    display: none;
+}
+
+.card2:hover #invisible{
+    display: block;
+}
+
+.card2:hover{
+    width: 360px;
+    height: 380px;
+    transition: all 600ms ease-in-out;
+    transform: scale(0.8);
+}
+
+
+
+.card3:hover #visible{
+    display: none;
+}
+
+.card3:hover #invisible{
+    display: block;
+}
+
+.card3:hover{
+    width: 360px;
+    height: 380px;
+    transition: all 600ms ease-in-out;
+    transform: scale(0.8);
+}
+
+
+.card4:hover #visible{
+    display: none;
+}
+
+.card4:hover #invisible{
+    display: block;
+}
+
+.card4:hover{
+    width: 360px;
+    height: 380px;
+    transition: all 600ms ease-in-out;
+    transform: scale(0.8);
 }
